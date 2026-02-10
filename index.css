@@ -6,4 +6,30 @@ body{
 }
 h1{
     text-align: center;
+    font-size:40px;
+}
+.topnav{
+    background-color:mediumpurple;
+    overflow:hidden;
+}
+.topnav a{
+    float: left;
+    color:ghostwhite;
+    text-align:center;
+    padding:14px 16px;
+    text-decoration:none;
+    font-size:20px;
+}
+.topnav a:hover{
+    background-color:rgb(172, 130, 255);
+    color:black;
+}
+.topnav a.active{
+    background-color:rgb(123, 76, 218);
+    color:black;
+}
+
+p{
+    text-align:center;
+    font-size:18px;
 }
