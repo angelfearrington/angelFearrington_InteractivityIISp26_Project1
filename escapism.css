@@ -1,4 +1,7 @@
-body{
+*{
+    cursor: url('images/594-5940098_pompompurin.png'), auto;
+}
+    body{
     background-color:rgb(231, 182, 255);
     font-family: "Dosis", sans-serif;
   font-optical-sizing: auto;
@@ -38,6 +41,7 @@ h2{
 .topnav a:hover{
     background-color:rgb(198, 170, 255);
     color:black;
+    cursor:url('images/giphy_s.gif'),auto;
 }
 .topnav a.active{
     background-color:rgb(185, 150, 255);
