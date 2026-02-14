@@ -4,6 +4,7 @@
 }
 body{
     background-color:rgb(231, 182, 255);
+    background-image:linear-gradient(to right, #F7CAC9, #91A8D0);
     font-family: "Dosis", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -52,4 +53,27 @@ h2{
 p{
     text-align:center;
     font-size:18px;
+}
+.star {
+	position: fixed;
+	pointer-events: none;
+}
+
+.star:before, .star:after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	content: '\2726';
+	font-size: 9px;
+}
+
+.star:before {
+	color: transparent;
+	text-shadow: 0 0 3px rgb(255, 255, 255);
+}
+
+.star:after {
+	background: rgb(255, 255, 255);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }

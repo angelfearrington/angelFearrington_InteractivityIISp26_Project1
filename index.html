@@ -10,6 +10,26 @@
 
 </head>
 <body>
+   <script>
+    window.addEventListener('mousemove', function(e) {
+      var arr = [1, 0.9, 0.8, 0.5, 0.2];
+
+      arr.forEach(function(i) {
+        var x = (1 - i) * 75;
+        var star = document.createElement('div');
+
+        star.className = 'star';
+        star.style.top = e.pageY + Math.round(Math.random() * x - x / 2) + 'px';
+        star.style.left = e.pageX + Math.round(Math.random() * x - x / 2) + 'px';
+
+        document.body.appendChild(star);
+
+        window.setTimeout(function() {
+          document.body.removeChild(star);
+        }, Math.round(Math.random() * i * 600));
+      });
+    }, false);
+</script> 
     <main>
    <h1><b>How The Internet Opened My Eyes</b></h1>
    <br>
@@ -25,6 +45,7 @@
 
 <h2>Home</h2>
    <p>Hi, my name is Angel Fearrington!
+    <br>
     <br>
     On this website I want to share my experience with the internet and how the internet had made me more aware of what is happening in my society, country, and globally. We are living through history right now, in a very tumultuous time that feels so hopeless at times. 
     <br>
