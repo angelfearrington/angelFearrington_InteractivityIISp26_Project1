@@ -4,7 +4,7 @@
 }
 body{
     background-color:rgb(231, 182, 255);
-    background-image:linear-gradient(to right, #F7CAC9, #91A8D0);
+    background-image:url('images/il_fullxfull.2410503726_5nt6.avif');
     font-family: "Dosis", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -17,7 +17,7 @@ main{
 }
 h1{
     text-align: center;
-    font-size:50px;
+    font-size:65px;
     color:indigo;
     font-family: "Fascinate", system-ui;
   font-weight: 400;
@@ -26,6 +26,10 @@ h1{
 h2{
     text-align:center;
     font-size:35px;
+    font-family: "Fascinate", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color:indigo;
 }
 .topnav{
     background-color:mediumpurple;
@@ -41,7 +45,7 @@ h2{
     padding:14px 16px;
     text-decoration:none;
     font-size:20px;
-    width:25%;
+    width:15%;
 }
 .topnav a:hover{
     background-color:rgb(198, 170, 255);
@@ -79,4 +83,19 @@ p{
 	background: rgb(255, 255, 255);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+}
+#content-container {
+    background-color:lavenderblush;
+    position: absolute;
+    padding: 15px;
+    top: 280px;
+   left: 200px;
+    width: 1300px;
+    height: 350px;
+    display: auto;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    text-align:center;
 }
