@@ -1,47 +1,37 @@
-
-*{
-    cursor: url('images/594-5940098_pompompurin.png'), auto;
-}
-body{
-    background-color:rgb(231, 182, 255);
-    background-image:url('images/il_fullxfull.2410503726_5nt6.avif');
-    font-family: "Dosis", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  margin-left:10%;
-  margin-right:10%;
-}
-main{
-    margin-left:-10%;
-    margin-right:-10%;
+#title{
+  font-family: "Fascinate", system-ui;
+  font-weight: 400;
+  font-style: normal; 
+  background-color:transparent;
+  color:indigo;
+  font-size:2rem;
+  text-align:center;
 }
 h1{
-    text-align: center;
-    font-size:65px;
-    color:indigo;
-    font-family: "Fascinate", system-ui;
-  font-weight: 400;
-  font-style: normal;
+    display:block;
+    font-size:2em;   
 }
-h2{
-    text-align:center;
-    font-size:35px;
-    font-family: "Fascinate", system-ui;
-  font-weight: 400;
+#navbar{
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
   font-style: normal;
-  color:indigo;
+  background-color:transparent;
+  margin-top:1px;
+  font-size:1.5rem;
+  width:300px;
+  height:500px;
 }
 ul{
     list-style-type:none;
     margin:0;
     padding:0;
-    width:200px;
     background-color:mediumpurple;
+    height:360px;
 }
 li a{
     display:block;
     color:white;
-    padding:8px 16px;
+    padding:30px 15px;
     text-decoration:none;
 }
 li a.active{
@@ -53,10 +43,52 @@ li a:hover{
     color:black;
     cursor:url('images/giphy_s.gif'),auto;
 }
-
-p{
+#welcome{
+    font-size:1.5rem;
+    background-color:lavender;
+    color:rgb(70, 54, 102);
     text-align:center;
-    font-size:18px;
+    padding-left:50px;
+    padding-right:50px;
+}
+#home{
+    background-color:lavender;
+    color:indigo;
+    text-align:center;
+    font-size:2.5rem;
+    font-family: "Fascinate", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    gap: 5px;
+    margin-top: 15px; 
+}
+#contentExamples{
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-color:lavender;
+  margin-top:15px;
+  text-align:center;
+  font-size:1.5rem;
+  margin-left:10px;
+}
+
+
+body{
+  background-color:rgb(231, 182, 255);
+  background-image:url('images/il_fullxfull.2410503726_5nt6.avif');
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  margin-left:10%;
+  margin-right:10%;
+}
+*{
+    cursor: url('images/594-5940098_pompompurin.png'), auto;
 }
 .star {
 	position: fixed;
