@@ -77,8 +77,37 @@ li a:hover{
   margin-left:10px;
 }
 h3{
-    font-size: 2rem;
+    font-size: 1.5rem;
+    animation-name:changeFont;
+    animation-duration:10s;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
 }
+@keyframes changeFont{
+    0%{color:deeppink;}
+    5%{color:black;}
+    10%{color:red;}
+    15%{color:black;}
+    20%{color:deeppink;}
+    25%{color:black;}
+    30%{color:red;}
+    35%{color:black;}
+    40%{color:deeppink;}
+    45%{color:black;}
+    50%{color:red;}
+    55%{color:black;}
+    60%{color:deeppink;}
+    65%{color:black;}
+    70%{color:red;}
+    75%{color:black;}
+    80%{color:deeppink;}
+    85%{color:black;}
+    90%{color:red;}
+    95%{color:black;}
+    100%{color:deeppink;}
+}
+
+
 
 body{
   background-color:rgb(231, 182, 255);
