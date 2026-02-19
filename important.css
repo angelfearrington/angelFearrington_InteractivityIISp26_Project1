@@ -4,7 +4,7 @@
   font-style: normal; 
   background-color:transparent;
   color:indigo;
-  font-size:2rem;
+  font-size:2.3rem;
   text-align:center;
 }
 h1{
@@ -66,6 +66,29 @@ li a:hover{
     gap: 5px;
     margin-top: 15px; 
 }
+#ReasonsList{
+    text-align:left
+}
+#Overall{
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-color:lavender;
+  margin-top:15px;
+  text-align:center;
+  font-size:1.5rem;
+  margin-left:10px; 
+  padding:5px; 
+}
+#OverallText{
+    font-size:1.5rem;
+    background-color:lavender;
+    color:rgb(70, 54, 102);
+    text-align:center;
+    padding-left:50px;
+    padding-right:50px;
+}
+
 
 body{
   background-color:rgb(231, 182, 255);
